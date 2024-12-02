@@ -47,8 +47,8 @@ Material:
     - _SmoothBottom: 0
     - _SmoothMiddle: 0.001
     - _SmoothTop: 0
-    - _StepBottom: 0.032
-    - _StepMiddle: 0.221
+    - _StepBottom: 0.021
+    - _StepMiddle: 0.256
     - _StepTop: 0.016
     m_Colors:
     - _ColorBottom: {r: 0.19668916, g: 0.6415094, b: 0.19890845, a: 0}

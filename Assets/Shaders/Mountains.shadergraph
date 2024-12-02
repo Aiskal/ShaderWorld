@@ -1001,8 +1001,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -988.0001220703125,
-            "y": 1411.0001220703125,
+            "x": -940.0,
+            "y": 1420.0,
             "width": 135.0,
             "height": 34.0
         }
@@ -3279,7 +3279,7 @@
     "m_ShaderOutputName": "Edge2",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.019999999552965165,
+        "x": 0.0,
         "y": 1.0,
         "z": 1.0,
         "w": 1.0
@@ -3762,7 +3762,7 @@
     "m_ShaderOutputName": "Edge2",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.019999999552965165,
+        "x": 0.0,
         "y": 1.0,
         "z": 1.0,
         "w": 1.0
