@@ -39,13 +39,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _MountainsDensity: 16.6
-    - _MountainsFlatness: 5.94
+    - _MountainsFlatness: 5.18
     - _MountainsMaxHeight: 440.1
     - _MountainsPower: 1.56
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _StepBottom: 0.01
-    - _StepMiddle: 0.053
+    - _SmoothBottom: 0
+    - _SmoothMiddle: 0.001
+    - _SmoothTop: 0
+    - _StepBottom: 0.032
+    - _StepMiddle: 0.221
+    - _StepTop: 0.016
     m_Colors:
     - _ColorBottom: {r: 0.19668916, g: 0.6415094, b: 0.19890845, a: 0}
     - _ColorMiddle: {r: 0.31132078, g: 0.069019206, b: 0.069019206, a: 0}
