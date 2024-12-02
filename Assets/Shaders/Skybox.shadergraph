@@ -10,13 +10,37 @@
             "m_Id": "0cb40dab557b4b0faca4d9df5b9b9c64"
         },
         {
+            "m_Id": "139cec1640874da2b8219b95040196fc"
+        },
+        {
+            "m_Id": "88c306c27a9b439c84e6171e6e9c4cb7"
+        },
+        {
             "m_Id": "c7c36813ff6c4422be11136642292daa"
         },
         {
             "m_Id": "ce46dc0874a24635991a9b354ed9944b"
         },
         {
+            "m_Id": "098c1fceb5ba45e8bf657f415e1282a2"
+        },
+        {
+            "m_Id": "05937bff861b472a95816a00b2693fb2"
+        },
+        {
+            "m_Id": "92538812695d4554bf342749f51eff9e"
+        },
+        {
+            "m_Id": "047df1d014fe4be18c63d42d533fa5fc"
+        },
+        {
             "m_Id": "c311243d4a47433c86841564b99fdeed"
+        },
+        {
+            "m_Id": "1bb7863a7f6a48c280d2a81fde04a409"
+        },
+        {
+            "m_Id": "9a73eeec02b34d2cbcb106e459138e48"
         },
         {
             "m_Id": "c57a3bf43d6a488894f5662449c7b794"
@@ -495,6 +519,36 @@
 }
 
 {
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "047df1d014fe4be18c63d42d533fa5fc",
+    "m_Guid": {
+        "m_GuidSerialized": "190dfe50-882f-4d71-8561-c441ea0aba57"
+    },
+    "m_Name": "HorizonTwilightColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "HorizonTwilightColor",
+    "m_DefaultReferenceName": "_HorizonTwilightColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.7572534680366516,
+        "g": 0.8439689874649048,
+        "b": 0.8584905862808228,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "04ffb929a392418ba7a61f8e92c559c6",
@@ -527,6 +581,36 @@
         "x": -368.9998779296875,
         "y": -440.0
     }
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "05937bff861b472a95816a00b2693fb2",
+    "m_Guid": {
+        "m_GuidSerialized": "5f0ff43d-acdd-4f99-b271-8cb9f4e3a992"
+    },
+    "m_Name": "HorizonDawnColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "HorizonDawnColor",
+    "m_DefaultReferenceName": "_HorizonDawnColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.7572534680366516,
+        "g": 0.8439689874649048,
+        "b": 0.8584905862808228,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
@@ -589,6 +673,36 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "098c1fceb5ba45e8bf657f415e1282a2",
+    "m_Guid": {
+        "m_GuidSerialized": "c610740d-48cc-4775-91f5-ffc7d885e6e5"
+    },
+    "m_Name": "ZenithDawnColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "ZenithDawnColor",
+    "m_DefaultReferenceName": "_ZenithDawnColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.54401034116745,
+        "g": 0.6379153728485107,
+        "b": 0.7075471878051758,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
@@ -658,6 +772,36 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "139cec1640874da2b8219b95040196fc",
+    "m_Guid": {
+        "m_GuidSerialized": "71e137c6-d8a4-465d-a0a7-9e3e139a2968"
+    },
+    "m_Name": "ZenithNightColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "ZenithNightColor",
+    "m_DefaultReferenceName": "_ZenithNightColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.54401034116745,
+        "g": 0.6379153728485107,
+        "b": 0.7075471878051758,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
@@ -767,6 +911,36 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "1bb7863a7f6a48c280d2a81fde04a409",
+    "m_Guid": {
+        "m_GuidSerialized": "447c8c89-2743-47cb-b25f-b32d2b980607"
+    },
+    "m_Name": "ZenithDayColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "ZenithDayColor",
+    "m_DefaultReferenceName": "_ZenithDayColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.54401034116745,
+        "g": 0.6379153728485107,
+        "b": 0.7075471878051758,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
@@ -1197,6 +1371,30 @@
         },
         {
             "m_Id": "c57a3bf43d6a488894f5662449c7b794"
+        },
+        {
+            "m_Id": "1bb7863a7f6a48c280d2a81fde04a409"
+        },
+        {
+            "m_Id": "9a73eeec02b34d2cbcb106e459138e48"
+        },
+        {
+            "m_Id": "92538812695d4554bf342749f51eff9e"
+        },
+        {
+            "m_Id": "047df1d014fe4be18c63d42d533fa5fc"
+        },
+        {
+            "m_Id": "139cec1640874da2b8219b95040196fc"
+        },
+        {
+            "m_Id": "88c306c27a9b439c84e6171e6e9c4cb7"
+        },
+        {
+            "m_Id": "098c1fceb5ba45e8bf657f415e1282a2"
+        },
+        {
+            "m_Id": "05937bff861b472a95816a00b2693fb2"
         }
     ]
 }
@@ -1943,6 +2141,36 @@
 }
 
 {
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "88c306c27a9b439c84e6171e6e9c4cb7",
+    "m_Guid": {
+        "m_GuidSerialized": "482ec377-6fc1-4257-a408-a9942e0fc307"
+    },
+    "m_Name": "HorizonNightColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "HorizonNightColor",
+    "m_DefaultReferenceName": "_HorizonNightColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.7572534680366516,
+        "g": 0.8439689874649048,
+        "b": 0.8584905862808228,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "8a976010171c4bc9961aba182b4490c8",
@@ -2015,6 +2243,36 @@
 }
 
 {
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "92538812695d4554bf342749f51eff9e",
+    "m_Guid": {
+        "m_GuidSerialized": "c458b77d-a173-48ba-98a9-8e54e99a78a9"
+    },
+    "m_Name": "ZenithTwilightColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "ZenithTwilightColor",
+    "m_DefaultReferenceName": "_ZenithTwilightColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.54401034116745,
+        "g": 0.6379153728485107,
+        "b": 0.7075471878051758,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
     "m_ObjectId": "926a8c627e1840209dbb2c3e46f51a2c",
@@ -2036,6 +2294,36 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "9a73eeec02b34d2cbcb106e459138e48",
+    "m_Guid": {
+        "m_GuidSerialized": "d019c151-29da-4b93-866e-6ab296fd0efc"
+    },
+    "m_Name": "HorizonDayColor",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "HorizonDayColor",
+    "m_DefaultReferenceName": "_HorizonDayColor",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.7572534680366516,
+        "g": 0.8439689874649048,
+        "b": 0.8584905862808228,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
