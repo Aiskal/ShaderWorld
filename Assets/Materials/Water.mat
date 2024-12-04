@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GroundMat
-  m_Shader: {fileID: -6465566751694194690, guid: ac8871dee985f1e4694836b464a97b78,
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 395752821c773be46b5924a1b0833939,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,32 +38,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientLightIntensity: 1.78
-    - _LightIntensity: 1
-    - _MountainsDensity: 16.8
-    - _MountainsFlatness: 5.8
-    - _MountainsMaxHeight: 598.25
-    - _MountainsPower: 1.56
-    - _OmbrePortee: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SmoothBottom: 0.0617
-    - _SmoothMiddle: 0.0122
-    - _SmoothTop: 0.0741
-    - _StepBottom: 0.1
-    - _StepMiddle: 0.0095
-    - _StepTop: 0.115
-    m_Colors:
-    - _AmbientLight: {r: 0.3726158, g: 0.33931115, b: 0.5754717, a: 0}
-    - _AmbientLightColor: {r: 0.29019502, g: 0.33725384, b: 0.5568628, a: 0}
-    - _ColorBottom: {r: 0.3214667, g: 0.5283019, b: 0.3214667, a: 0}
-    - _ColorMiddle: {r: 0.2830189, g: 0.07075472, b: 0.07075472, a: 0}
-    - _ColorTop: {r: 0.9528302, g: 0.91237986, b: 0.91237986, a: 0}
-    - _LightColor: {r: 0.9150943, g: 0.89736176, b: 0.8330811, a: 0}
-    - _LightIntensity: {r: 0, g: 0, b: 0, a: 0}
-    - _LightIntensity_1: {r: 0, g: 0, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &1042577286511786501
+--- !u!114 &5049568936332209430
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
