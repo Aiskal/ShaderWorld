@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GroundMat
-  m_Shader: {fileID: -6465566751694194690, guid: ac8871dee985f1e4694836b464a97b78,
+  m_Name: SkyboxNew
+  m_Shader: {fileID: -6465566751694194690, guid: a4ea983593e8eb44fb6a912749456ee7,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,32 +38,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientLightIntensity: 1.78
-    - _LightIntensity: 1
-    - _MountainsDensity: 16.8
-    - _MountainsFlatness: 5.8
-    - _MountainsMaxHeight: 598.25
-    - _MountainsPower: 1.56
-    - _OmbrePortee: 5
+    - _Dawn_TwilightFraction: 0.1
+    - _DayLength: 30
+    - _NadirBlendPower: 2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SmoothBottom: 0.0617
-    - _SmoothMiddle: 0.0122
-    - _SmoothTop: 0.0741
-    - _StepBottom: 0.1
-    - _StepMiddle: 0.0095
-    - _StepTop: 0.115
+    - _ZenithBlendPower: 2
     m_Colors:
-    - _AmbientLight: {r: 0.3726158, g: 0.33931115, b: 0.5754717, a: 0}
-    - _AmbientLightColor: {r: 0.29019496, g: 0.33725378, b: 0.5568628, a: 0}
-    - _ColorBottom: {r: 0.3214667, g: 0.5283019, b: 0.3214667, a: 0}
-    - _ColorMiddle: {r: 0.2830189, g: 0.07075472, b: 0.07075472, a: 0}
-    - _ColorTop: {r: 0.9528302, g: 0.91237986, b: 0.91237986, a: 0}
-    - _LightColor: {r: 0.9150943, g: 0.89736176, b: 0.8330811, a: 0}
-    - _LightIntensity: {r: 0, g: 0, b: 0, a: 0}
-    - _LightIntensity_1: {r: 0, g: 0, b: 0, a: 0}
+    - _HorizonDawnColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
+    - _HorizonDayColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
+    - _HorizonNightColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
+    - _HorizonTwilightColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
+    - _ZenithDawnColor: {r: 0.28627446, g: 0.7176471, b: 0.654902, a: 0}
+    - _ZenithDayColor: {r: 0.17254895, g: 0.55294114, b: 0.8196079, a: 0}
+    - _ZenithNightColor: {r: 0.058823504, g: 0.12549016, b: 0.35686278, a: 0}
+    - _ZenithTwilightColor: {r: 0.5254902, g: 0.43529406, b: 0.9333333, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &1042577286511786501
+--- !u!114 &1413638387239268148
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
