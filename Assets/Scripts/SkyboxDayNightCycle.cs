@@ -5,11 +5,13 @@ using static System.TimeZoneInfo;
 
 public class SkyboxDayNightCycle : MonoBehaviour
 {
-    [SerializeField] private Material skyboxMaterial;
+    //[SerializeField] private Material skyboxMaterial;
     [SerializeField] private Transform sunTransform;
+    //[SerializeField] private UpdateLights updateLights;
     [SerializeField] private float sunArcHeight = 45f;
     [SerializeField] private float dayLength = 60f;
     [SerializeField][Range(0f, 0.25f)] private float transitionFraction = 0.1f;
+
 
     private Color zenithDayColor;
     private Color horizonDayColor;
@@ -29,9 +31,16 @@ public class SkyboxDayNightCycle : MonoBehaviour
     private float timeOfDay;
     private Coroutine sunCoroutine;
 
+    private float dawnStart;
+    private float dawnMid;
+    private float dayStart;
+    private float twilightStart;
+    private float twilightMid;
+    private float nightStart;
+
     void Start()
     {
-        zenithDayColor = skyboxMaterial.GetColor("_ZenithDayColor");
+        /*zenithDayColor = skyboxMaterial.GetColor("_ZenithDayColor");
         horizonDayColor = skyboxMaterial.GetColor("_HorizonDayColor");
 
         zenithTwilightColor = skyboxMaterial.GetColor("_ZenithTwilightColor");
@@ -41,13 +50,20 @@ public class SkyboxDayNightCycle : MonoBehaviour
         horizonNightColor = skyboxMaterial.GetColor("_HorizonNightColor");
 
         zenithDawnColor = skyboxMaterial.GetColor("_ZenithDawnColor");
-        horizonDawnColor = skyboxMaterial.GetColor("_HorizonDawnColor");
+        horizonDawnColor = skyboxMaterial.GetColor("_HorizonDawnColor"); */
 
+        dawnStart = 0f;
+        dawnMid = transitionFraction / 2f;
+        dayStart = transitionFraction;
+        twilightStart = 0.5f - transitionFraction;
+        twilightMid = twilightStart + transitionFraction / 2f;
+        nightStart = 0.5f;
+        
         sunCoroutine = StartCoroutine(SunCycle());
     }
 
 
-    void Update()
+   /* void Update()
     {
         timeOfDay = Mathf.Repeat(Time.time / dayLength, 1f);
 
@@ -56,17 +72,13 @@ public class SkyboxDayNightCycle : MonoBehaviour
 
         skyboxMaterial.SetColor("_ZenithColor", zenithColor);
         skyboxMaterial.SetColor("_HorizonColor", horizonColor);
-    }
+    }*/
     private IEnumerator SunCycle()
     {
-        float dawnStart = 0f;
-        float nightStart = 0.5f;
-
         while (true)
         {
             if (timeOfDay >= dawnStart && timeOfDay <= nightStart) // Soleil visible
             {
-
                 UpdateSunPositionAndRotation();
                 yield return null;
             }
@@ -92,8 +104,6 @@ public class SkyboxDayNightCycle : MonoBehaviour
 
     private void UpdateSunPositionAndRotation()
     {
-        float dawnStart = 0f;
-        float nightStart = 0.5f;
 
         float normalizedTime = (timeOfDay - dawnStart) / (nightStart - dawnStart);
 
@@ -119,20 +129,11 @@ public class SkyboxDayNightCycle : MonoBehaviour
         }
     }
 
-    private Color CalculateColor(float time, Color night, Color dawn, Color day, Color twilight)
+    /*private Color CalculateColor(float time, Color night, Color dawn, Color day, Color twilight)
     {
-        float dawnStart = 0f;
-        float dawnMid = transitionFraction/2f;
-
-        float dayStart = transitionFraction;
-
-        float twilightStart = 0.5f - transitionFraction;
-        float twilightMid = twilightStart + transitionFraction / 2f;
-
-        float nightStart = twilightMid + transitionFraction / 2f;
-
         if (time >= dawnStart && time < dawnMid) // Nuit -> Mi-Aube
         {
+            updateLights.UpdateLightIntensityOverTime(transitionFraction * dayLength, true);
             float t = (time - dawnStart) / (dawnMid - dawnStart);
             return Color.Lerp(night, dawn, t);
         }
@@ -147,6 +148,7 @@ public class SkyboxDayNightCycle : MonoBehaviour
         }
         else if (time >= twilightStart && time < twilightMid) // Jour -> Mi-Crépuscule
         {
+            updateLights.UpdateLightIntensityOverTime(transitionFraction * dayLength, false);
             float t = (time - twilightStart) / (twilightMid - twilightStart);
             return Color.Lerp(day, twilight, t);
         }
@@ -159,5 +161,5 @@ public class SkyboxDayNightCycle : MonoBehaviour
         {
             return night;
         }
-    }
+    }*/
 }
