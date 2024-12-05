@@ -1764,6 +1764,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "0c8b3d2264da4da0a4f3060e8fe8d848",
+    "m_Id": -2071470948,
+    "m_DisplayName": "DayLength",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_DayLength",
+    "m_StageCapability": 3,
+    "m_Value": 30.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "0d0d765b5e504dce8573cef00a74799f",
     "m_Id": 2,
@@ -1821,6 +1836,9 @@
             "m_Id": "85df82c11bda4ee9975223b4031ae6a7"
         },
         {
+            "m_Id": "0c8b3d2264da4da0a4f3060e8fe8d848"
+        },
+        {
             "m_Id": "cae07f52a36c40159bb7daf9f7bb3a58"
         }
     ],
@@ -1844,7 +1862,8 @@
         "eea14c48-93ea-49ba-b3df-de01959e26cc",
         "6a67836f-c12e-4e8d-8ff9-85862f820c79",
         "c6a95eca-d2a3-4590-9a62-6fe9885b6f09",
-        "da3eba6c-d4f5-465f-bca5-d94a25790075"
+        "da3eba6c-d4f5-465f-bca5-d94a25790075",
+        "97c1f2bc-86fe-423e-9b1b-a59945b3ddc8"
     ],
     "m_PropertyIds": [
         -287579985,
@@ -1857,7 +1876,8 @@
         1793302148,
         -614254111,
         1664726395,
-        -1548176896
+        -1548176896,
+        -2071470948
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []

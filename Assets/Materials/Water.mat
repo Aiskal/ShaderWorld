@@ -57,7 +57,7 @@ Material:
     - _WaveAmplitude: 0.5
     - _WaveSpeed: 0.5
     m_Colors:
-    - _AmbientLightColor: {r: 0.29019374, g: 0.33725256, b: 0.5568628, a: 0}
+    - _AmbientLightColor: {r: 0.29019162, g: 0.33725047, b: 0.5568628, a: 0}
     - _DeepColor: {r: 0.15472582, g: 0.17060304, b: 0.57547164, a: 0.9137255}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightColor: {r: 0.9339623, g: 0.896201, b: 0.73571557, a: 0}

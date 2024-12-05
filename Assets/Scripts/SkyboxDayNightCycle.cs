@@ -22,34 +22,14 @@ public class SkyboxDayNightCycle : MonoBehaviour
         while (true)
         {
             timeOfDay = Mathf.Repeat(Time.time / dayLength, 1f);
-
-            if (timeOfDay >= 0 && timeOfDay <= 1f) // Soleil visible
-            {
-                UpdateSunPositionAndRotation();
-                yield return null;            
-            }
-            else
-            {
-                // Soleil sous l'horizon
-
-                if (sunTransform.gameObject.activeSelf)
-                {
-                    sunTransform.gameObject.SetActive(false);
-                }
-
-                yield return new WaitForSeconds(dayLength/2);
-
-                if (!sunTransform.gameObject.activeSelf)
-                {
-                    sunTransform.gameObject.SetActive(true);
-                }
-            }
+            UpdateSunPositionAndRotation();
+            yield return null; 
         }
     }
 
     private void UpdateSunPositionAndRotation()
     {
-        float angle = Mathf.Lerp(-90f, 90f, timeOfDay);
+        float angle = timeOfDay * 180f - 90f;
 
         float radians = angle * Mathf.Deg2Rad;
         float y = Mathf.Cos(radians) * sunArcHeight;
