@@ -3319,6 +3319,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "898a84e37af94961a9e89041024d9ad1",
+    "m_Id": 2,
+    "m_DisplayName": "TimeFraction",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "TimeFraction",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
     "m_ObjectId": "89b3b26010a04f41a1abaf7bde5bb3be",
     "m_Group": {
@@ -3341,6 +3356,9 @@
         },
         {
             "m_Id": "4c15fd20fe1c4096bfb1db5eca393de5"
+        },
+        {
+            "m_Id": "898a84e37af94961a9e89041024d9ad1"
         }
     ],
     "synonyms": [],
