@@ -37,7 +37,7 @@ public class SkyboxDayNightCycle : MonoBehaviour
                     sunTransform.gameObject.SetActive(false);
                 }
 
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(dayLength/2);
 
                 if (!sunTransform.gameObject.activeSelf)
                 {
