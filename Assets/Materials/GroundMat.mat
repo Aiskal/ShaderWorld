@@ -38,8 +38,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbientLightIntensity: 1.78
-    - _LightIntensity: 1
+    - _AmbientLightIntensity: 0.5
+    - _LightIntensity: 3
     - _MountainsDensity: 16.8
     - _MountainsFlatness: 5.8
     - _MountainsMaxHeight: 598.25
@@ -47,16 +47,17 @@ Material:
     - _OmbrePortee: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SmoothBottom: 0.0617
-    - _SmoothMiddle: 0.0122
+    - _SmoothBottom: 0.009
+    - _SmoothMiddle: 0.0134
     - _SmoothTop: 0.0741
-    - _StepBottom: 0.1
-    - _StepMiddle: 0.0095
+    - _StepBottom: 0
+    - _StepMiddle: 0.0107
     - _StepTop: 0.115
     m_Colors:
     - _AmbientLight: {r: 0.3726158, g: 0.33931115, b: 0.5754717, a: 0}
-    - _AmbientLightColor: {r: 0.29019496, g: 0.33725378, b: 0.5568628, a: 0}
-    - _ColorBottom: {r: 0.3214667, g: 0.5283019, b: 0.3214667, a: 0}
+    - _AmbientLightColor: {r: 0.29019487, g: 0.3372537, b: 0.5568628, a: 0}
+    - _ColorBottom: {r: 0.735849, g: 0.6799773, b: 0.15619436, a: 1}
+    - _ColorGrass: {r: 0.19668916, g: 0.6415094, b: 0.19890845, a: 0}
     - _ColorMiddle: {r: 0.2830189, g: 0.07075472, b: 0.07075472, a: 0}
     - _ColorTop: {r: 0.9528302, g: 0.91237986, b: 0.91237986, a: 0}
     - _LightColor: {r: 0.9150943, g: 0.89736176, b: 0.8330811, a: 0}

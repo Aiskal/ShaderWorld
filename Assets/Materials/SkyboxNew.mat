@@ -39,11 +39,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Dawn_TwilightFraction: 0.1
-    - _DayLength: 30
-    - _NadirBlendPower: 2
+    - _DayLength: 10
+    - _NadirBlendPower: 0.377
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ZenithBlendPower: 2
+    - _ZenithBlendPower: 0.554
     m_Colors:
     - _HorizonDawnColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
     - _HorizonDayColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
