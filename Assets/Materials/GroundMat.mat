@@ -24,6 +24,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _RocheTexture:
+        m_Texture: {fileID: 2800000, guid: a12a9c4f149b62e43946d822c4fb32c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a1298f86376448f09531afdda084278a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: dc8b03043cff31c41a6a1566b64e2204, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SandTexture:
+        m_Texture: {fileID: 2800000, guid: dc8b03043cff31c41a6a1566b64e2204, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,27 +52,36 @@ Material:
     m_Floats:
     - _AmbientLightIntensity: 0.5
     - _LightIntensity: 3
-    - _MountainsDensity: 16.8
-    - _MountainsFlatness: 5.8
-    - _MountainsMaxHeight: 598.25
+    - _MountainsDensity: 9.38
+    - _MountainsFlatness: 4
+    - _MountainsMaxHeight: 685.8
     - _MountainsPower: 1.56
+    - _MountainsScale: 18
     - _OmbrePortee: 5
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RockBump: 904.9
+    - _RockScale: 101
+    - _SandCellDensity: 3.37
+    - _SandScale: 6.5
     - _SmoothBottom: 0.009
-    - _SmoothMiddle: 0.0134
+    - _SmoothMiddle: 0.0239
     - _SmoothTop: 0.0741
     - _StepBottom: 0
-    - _StepMiddle: 0.0107
+    - _StepMiddle: 0.0142
     - _StepTop: 0.115
+    - _WorldFlatness: 5.9
     m_Colors:
     - _AmbientLight: {r: 0.3726158, g: 0.33931115, b: 0.5754717, a: 0}
-    - _AmbientLightColor: {r: 0.29019487, g: 0.3372537, b: 0.5568628, a: 0}
-    - _ColorBottom: {r: 0.735849, g: 0.6799773, b: 0.15619436, a: 1}
-    - _ColorGrass: {r: 0.19668916, g: 0.6415094, b: 0.19890845, a: 0}
+    - _AmbientLightColor: {r: 0.29019484, g: 0.33725366, b: 0.5568628, a: 0}
+    - _ColorBackSand: {r: 0.8396226, g: 0.6376575, b: 0.08317016, a: 0}
+    - _ColorBottom: {r: 0.7372549, g: 0.17391042, b: 0.15686274, a: 1}
+    - _ColorGrass: {r: 0.21827163, g: 0.4245283, b: 0.22295928, a: 0}
     - _ColorMiddle: {r: 0.2830189, g: 0.07075472, b: 0.07075472, a: 0}
-    - _ColorTop: {r: 0.9528302, g: 0.91237986, b: 0.91237986, a: 0}
-    - _LightColor: {r: 0.9150943, g: 0.89736176, b: 0.8330811, a: 0}
+    - _ColorMountains: {r: 0.31132078, g: 0.069019206, b: 0.069019206, a: 0}
+    - _ColorTop: {r: 1, g: 1, b: 1, a: 0}
+    - _ColorTopSand: {r: 0.9339623, g: 0.88578653, b: 0.66522783, a: 0}
+    - _LightColor: {r: 0.9339623, g: 0.896201, b: 0.73571557, a: 0}
     - _LightIntensity: {r: 0, g: 0, b: 0, a: 0}
     - _LightIntensity_1: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

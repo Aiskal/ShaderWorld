@@ -80,8 +80,7 @@ public class SkyboxDayNightCycle : MonoBehaviour
             if (timeOfDay >= dawnStart && timeOfDay <= nightStart) // Soleil visible
             {
                 UpdateSunPositionAndRotation();
-                yield return null;
-            }
+                yield return null;            }
             else
             {
                 // Soleil sous l'horizon
