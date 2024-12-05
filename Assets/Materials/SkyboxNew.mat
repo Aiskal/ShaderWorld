@@ -38,17 +38,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _CloudsAlpha: 0.75
+    - _CloudsDensity: 2.58
+    - _CloudsSize: 30
+    - _CloudsSpeed: 0.07
     - _Dawn_TwilightFraction: 0.1
-    - _DayLength: 10
-    - _NadirBlendPower: 0.377
+    - _DayLength: 30
+    - _NadirBlendPower: 0.2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ZenithBlendPower: 0.554
+    - _ZenithBlendPower: 0.2
     m_Colors:
+    - _CloudsColor: {r: 0.68284976, g: 0.8773585, b: 0.8569071, a: 1}
     - _HorizonDawnColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
     - _HorizonDayColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
     - _HorizonNightColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
     - _HorizonTwilightColor: {r: 0.7572535, g: 0.843969, b: 0.8584906, a: 0}
+    - _NadirColor: {r: 0.6784314, g: 0.6431373, b: 0.8509804, a: 1}
     - _ZenithDawnColor: {r: 0.28627446, g: 0.7176471, b: 0.654902, a: 0}
     - _ZenithDayColor: {r: 0.17254895, g: 0.55294114, b: 0.8196079, a: 0}
     - _ZenithNightColor: {r: 0.058823504, g: 0.12549016, b: 0.35686278, a: 0}

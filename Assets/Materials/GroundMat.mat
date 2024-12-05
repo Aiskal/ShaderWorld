@@ -56,14 +56,18 @@ Material:
     - _MountainsFlatness: 4
     - _MountainsMaxHeight: 685.8
     - _MountainsPower: 1.56
-    - _MountainsScale: 18
+    - _MountainsScale: 18.6
     - _OmbrePortee: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RockBump: 904.9
-    - _RockScale: 101
-    - _SandCellDensity: 3.37
-    - _SandScale: 6.5
+    - _RockHashPower: 0.281
+    - _RockNoiseOpacity: 1.8
+    - _RockNoisePower: 1.44
+    - _RockNoiseScale: 534.8
+    - _RockScale: 567.17
+    - _SandCellDensity: 5.4
+    - _SandScale: 5.66
     - _SmoothBottom: 0.009
     - _SmoothMiddle: 0.0239
     - _SmoothTop: 0.0741
@@ -73,12 +77,13 @@ Material:
     - _WorldFlatness: 5.9
     m_Colors:
     - _AmbientLight: {r: 0.3726158, g: 0.33931115, b: 0.5754717, a: 0}
-    - _AmbientLightColor: {r: 0.29019484, g: 0.33725366, b: 0.5568628, a: 0}
+    - _AmbientLightColor: {r: 0.29019436, g: 0.33725318, b: 0.5568628, a: 0}
     - _ColorBackSand: {r: 0.8396226, g: 0.6376575, b: 0.08317016, a: 0}
     - _ColorBottom: {r: 0.7372549, g: 0.17391042, b: 0.15686274, a: 1}
     - _ColorGrass: {r: 0.21827163, g: 0.4245283, b: 0.22295928, a: 0}
     - _ColorMiddle: {r: 0.2830189, g: 0.07075472, b: 0.07075472, a: 0}
-    - _ColorMountains: {r: 0.31132078, g: 0.069019206, b: 0.069019206, a: 0}
+    - _ColorMountains: {r: 0.31132078, g: 0.21293166, b: 0.21293166, a: 0}
+    - _ColorMountainsRock: {r: 0.4433962, g: 0.0983001, b: 0.15039004, a: 0}
     - _ColorTop: {r: 1, g: 1, b: 1, a: 0}
     - _ColorTopSand: {r: 0.9339623, g: 0.88578653, b: 0.66522783, a: 0}
     - _LightColor: {r: 0.9339623, g: 0.896201, b: 0.73571557, a: 0}

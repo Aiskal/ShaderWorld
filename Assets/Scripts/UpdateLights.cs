@@ -7,10 +7,6 @@ public class UpdateLights : MonoBehaviour
     [SerializeField] Material[] materials; 
     [SerializeField] Material referenceLights;
 
-    private Coroutine lightIntensityCoroutine;
-    [SerializeField] private float nightLightIntensity = 0.2f;
-    [SerializeField] private float dayLightIntensity = 1f;
-
     private Color ambientLightColor;
     private float ambientLightIntensity;
     private Color lightColor; 
@@ -34,33 +30,6 @@ public class UpdateLights : MonoBehaviour
         }
     }
 
-    public void UpdateLightIntensityOverTime(float transitionDuration, bool isNightToDay)
-    {
-        if (lightIntensityCoroutine != null)
-        {
-            return;
-        }
-        lightIntensityCoroutine = StartCoroutine(LerpLightIntensity(transitionDuration, isNightToDay));
-    }
-
-    private IEnumerator LerpLightIntensity(float duration, bool isNightToDay)
-    {
-        Debug.Log("LerpLightIntensity");
-        float startIntensity = isNightToDay ? nightLightIntensity : dayLightIntensity;
-        float endIntensity = isNightToDay ? dayLightIntensity : nightLightIntensity;
-        float elapsedTime = 0f;
-
-        while (elapsedTime < duration)
-        {
-            lightIntensity = Mathf.Lerp(startIntensity, endIntensity, elapsedTime / duration);
-            UpdateMaterialPropertyForAll("_LightIntensity", lightIntensity);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        lightIntensity = endIntensity; 
-        UpdateMaterialPropertyForAll("_LightIntensity", lightIntensity);
-    }
 
     private void SetMaterialProperty(Material mat, string propertyName, object value)
     {

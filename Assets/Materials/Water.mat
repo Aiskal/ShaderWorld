@@ -38,12 +38,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AmbientLightIntensity: 0.5
     - _Distance: 2.9
     - _FoamAmount: 45
     - _FoamCutOff: 60.28
     - _FoamScale: 100
     - _FoamSpeed: 2
     - _HighFrequencyWave: 5
+    - _LightIntensity: 3
     - _NormalStrength: -6.62
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -55,8 +57,10 @@ Material:
     - _WaveAmplitude: 0.5
     - _WaveSpeed: 0.5
     m_Colors:
+    - _AmbientLightColor: {r: 0.29019436, g: 0.33725318, b: 0.5568628, a: 0}
     - _DeepColor: {r: 0.15472582, g: 0.17060304, b: 0.57547164, a: 0.9137255}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor: {r: 0.9339623, g: 0.896201, b: 0.73571557, a: 0}
     - _Scale: {r: -8.48, g: 2, b: 0, a: 0}
     - _SurfaceColor: {r: 0.23718402, g: 0.7735849, b: 0.6794903, a: 0.6509804}
   m_BuildTextureStacks: []
