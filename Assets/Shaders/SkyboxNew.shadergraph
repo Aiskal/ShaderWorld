@@ -53,9 +53,6 @@
         },
         {
             "m_Id": "c95052878b954a179a2cb80c364c2264"
-        },
-        {
-            "m_Id": "189d5e7122b1424cb0c6f7dcbc4e96ba"
         }
     ],
     "m_Keywords": [],
@@ -185,9 +182,6 @@
         },
         {
             "m_Id": "e2c0e69897e54e79a7ea2fa06fa09c24"
-        },
-        {
-            "m_Id": "b07ae4811e7d47baa3be8123979d6bd7"
         },
         {
             "m_Id": "b92e4d9713774db79179af29a8c9a0d7"
@@ -625,20 +619,6 @@
                     "m_Id": "24feb9686eaa4d85a594c0376b23b7d5"
                 },
                 "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "b07ae4811e7d47baa3be8123979d6bd7"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "76e49b67042f4a18930e0dbf4aceafe3"
-                },
-                "m_SlotId": -1693611000
             }
         },
         {
@@ -1311,34 +1291,6 @@
 }
 
 {
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "189d5e7122b1424cb0c6f7dcbc4e96ba",
-    "m_Guid": {
-        "m_GuidSerialized": "078967e9-cc1a-4bee-beca-f79422b9cff0"
-    },
-    "m_Name": "CloudsAlpha",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "CloudsAlpha",
-    "m_DefaultReferenceName": "_CloudsAlpha",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 1.0,
-    "m_FloatType": 1,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 1.0
-    }
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TangentMaterialSlot",
     "m_ObjectId": "19634a3bcca34802a77d4e1e78d27379",
@@ -1830,21 +1782,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "3925e82eef5f41f781c9b5f4f13ae9cf",
-    "m_Id": -1693611000,
-    "m_DisplayName": "Alpha",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "_Alpha",
-    "m_StageCapability": 3,
-    "m_Value": 0.5,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "3995c361f9304cd0b22b762a1b3beae8",
     "m_Name": "Clouds",
@@ -1860,9 +1797,6 @@
         },
         {
             "m_Id": "1f4d71685e9d45dab50fe40fc5b07b78"
-        },
-        {
-            "m_Id": "189d5e7122b1424cb0c6f7dcbc4e96ba"
         }
     ]
 }
@@ -2927,9 +2861,6 @@
         },
         {
             "m_Id": "87cf4089200648f6a50b975336a34328"
-        },
-        {
-            "m_Id": "3925e82eef5f41f781c9b5f4f13ae9cf"
         },
         {
             "m_Id": "0b223d1041e14a4c8764e62debec67d5"
@@ -4390,42 +4321,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "b07ae4811e7d47baa3be8123979d6bd7",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 1613.0001220703125,
-            "y": -1381.0001220703125,
-            "width": 141.0,
-            "height": 34.0001220703125
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "e8841207a34640ff9971650712f7b79c"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "189d5e7122b1424cb0c6f7dcbc4e96ba"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b8c22f91506243c5b95db5add07d6d71",
     "m_Id": 3,
@@ -5350,21 +5245,6 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "e8841207a34640ff9971650712f7b79c",
-    "m_Id": 0,
-    "m_DisplayName": "CloudsAlpha",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
